@@ -1,0 +1,411 @@
+/* line 28, ../sass/techwork.scss */
+.titlebox .option.active, .morelink {
+  display: block;
+  background: #CFD2AD;
+  border: none;
+  border-radius: 0;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* line 39, ../sass/techwork.scss */
+.titlebox .option.active a, .morelink a {
+  color: #4D394B;
+}
+
+/* line 44, ../sass/techwork.scss */
+body {
+  background-image: url(http://i.imgur.com/07t2mb2.gif);
+}
+
+/* line 48, ../sass/techwork.scss */
+.pagename a {
+  color: #ffffff;
+}
+
+/* line 52, ../sass/techwork.scss */
+body, #header, .side {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* line 57, ../sass/techwork.scss */
+#header {
+  border-bottom: none;
+}
+
+/* line 61, ../sass/techwork.scss */
+#header-bottom-right {
+  border-radius: 0;
+  background: transparent;
+  top: 0 !important;
+  right: 0;
+  padding: 0 !important;
+  height: 26px !important;
+  line-height: 26px;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  color: #fff;
+}
+
+/* line 74, ../sass/techwork.scss */
+#header-bottom-left {
+  height: 200px;
+}
+/* line 76, ../sass/techwork.scss */
+#header-bottom-left .redditname {
+  margin-top: 40px;
+  font-size: 60px;
+}
+/* line 80, ../sass/techwork.scss */
+#header-bottom-left #header-img {
+  display: none;
+}
+/* line 84, ../sass/techwork.scss */
+#header-bottom-left .tabmenu li {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px;
+  cursor: pointer;
+}
+/* line 91, ../sass/techwork.scss */
+#header-bottom-left .tabmenu li .choice, #header-bottom-left .tabmenu li #viewImagesButton {
+  background-color: transparent;
+  color: #ffffff;
+  border: none !important;
+}
+/* line 96, ../sass/techwork.scss */
+#header-bottom-left .tabmenu li.selected, #header-bottom-left .tabmenu li:hover {
+  background-color: #ffffff;
+}
+/* line 98, ../sass/techwork.scss */
+#header-bottom-left .tabmenu li.selected .choice, #header-bottom-left .tabmenu li.selected #viewImagesButton, #header-bottom-left .tabmenu li:hover .choice, #header-bottom-left .tabmenu li:hover #viewImagesButton {
+  color: #3E313C;
+}
+
+/* line 106, ../sass/techwork.scss */
+.pagename {
+  display: block;
+  text-align: center;
+}
+
+/* line 111, ../sass/techwork.scss */
+.tabmenu {
+  position: absolute;
+  bottom: 0;
+  padding: 6px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 32px;
+  background: #3E313C;
+}
+
+/* line 121, ../sass/techwork.scss */
+.side {
+  width: 288px;
+  margin-right: 32px;
+}
+
+/* line 127, ../sass/techwork.scss */
+.titlebox .redditname {
+  display: none;
+}
+/* line 130, ../sass/techwork.scss */
+.titlebox .toggle {
+  width: 100%;
+}
+/* line 136, ../sass/techwork.scss */
+.titlebox .option {
+  color: #4D394B;
+}
+
+/* line 141, ../sass/techwork.scss */
+form#search input[type=text] {
+  width: 100% !important;
+}
+
+/* line 145, ../sass/techwork.scss */
+.md {
+  color: inherit;
+}
+
+/* line 149, ../sass/techwork.scss */
+.content {
+  margin-left: 32px;
+  margin-right: 330px;
+}
+
+/* line 154, ../sass/techwork.scss */
+.thing {
+  background-color: #ffffff;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 2px #333333;
+  min-height: 70px;
+}
+
+/* line 164, ../sass/techwork.scss */
+.thing:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0px 3px 0px #888;
+}
+
+/* line 169, ../sass/techwork.scss */
+.thing .arrow {
+  background-size: 32px;
+  width: 22px;
+  height: 22px;
+  background-position: center !important;
+}
+
+/* line 176, ../sass/techwork.scss */
+.thing .arrow.up {
+  background-image: url("//b.thumbs.redditmedia.com/U2f3GM6Z5z7UWhYOjlcm8OOTIy_IUO8ty2uxnq1CinQ.png");
+}
+
+/* line 180, ../sass/techwork.scss */
+.thing .arrow.upmod {
+  background-image: url("//b.thumbs.redditmedia.com/PHU9t5grK84zhXgjCIQSgLQfq_y1X1km93igtQgucdE.png");
+}
+
+/* line 184, ../sass/techwork.scss */
+.thing .arrow.down {
+  background-image: url("//b.thumbs.redditmedia.com/akq_xxbyrqLoIMB18dl7cME1Elr_kKlKBWj_9fwTvnk.png");
+}
+
+/* line 188, ../sass/techwork.scss */
+.thing .arrow.downmod {
+  background-image: url("//b.thumbs.redditmedia.com/Io1Y5neDgYnFdyS2yI1sBcRQ5W6Oe6YgYsKVif4fd5E.png");
+}
+
+/* line 192, ../sass/techwork.scss */
+.RES-keyNav-activeElement {
+  background-color: transparent !important;
+}
+
+/* line 197, ../sass/techwork.scss */
+.rank {
+  display: none;
+}
+
+/* line 201, ../sass/techwork.scss */
+.expando-button.collapsed.selftext {
+  width: 20px;
+  height: 20px;
+  margin: 4px 8px 0 0;
+  background: wheat;
+}
+
+/* line 209, ../sass/techwork.scss */
+.expando .md {
+  color: #333333;
+}
+
+/* line 214, ../sass/techwork.scss */
+.nub {
+  display: none;
+}
+
+/* line 222, ../sass/techwork.scss */
+#sr-header-area {
+  height: 26px;
+  line-height: 26px;
+}
+/* line 225, ../sass/techwork.scss */
+#sr-header-area .width-clip, #sr-header-area #RESShortcutsViewport {
+  margin-right: 400px;
+}
+
+/* line 232, ../sass/techwork.scss */
+.users-online:before {
+  content: "";
+}
+
+/* line 236, ../sass/techwork.scss */
+.users-online .number:after {
+  content: " here";
+}
+
+/* line 240, ../sass/techwork.scss */
+.users-online .word {
+  display: none;
+}
+
+/* line 250, ../sass/techwork.scss */
+.entry .tagline {
+  margin-top: 4px;
+  color: #3E313C;
+  font-size: 12px;
+  font-family: arial,sans-serif;
+  transition: all 0.15s ease;
+}
+
+/* line 258, ../sass/techwork.scss */
+.entry .buttons li {
+  display: inline-block;
+  border: none;
+  padding-right: 4px;
+  line-height: 1.6em;
+}
+
+/* line 266, ../sass/techwork.scss */
+.entry .buttons li a {
+  padding: 0 1px;
+  color: #3E313C;
+  font-weight: 400;
+  font-size: 13px;
+  transition: all 0.15s ease;
+}
+
+/* line 274, ../sass/techwork.scss */
+a {
+  color: #FFE2AC;
+}
+
+/* line 278, ../sass/techwork.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 282, ../sass/techwork.scss */
+.nextprev a, .next-suggestions a {
+  border-radius: none;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-weight: 400;
+}
+
+/* line 289, ../sass/techwork.scss */
+.entry a:hover {
+  color: #0A1E29 !important;
+}
+
+/* line 295, ../sass/techwork.scss */
+.approval-checkmark {
+  display: none;
+}
+
+/* line 299, ../sass/techwork.scss */
+.nextprev
+, .next-suggestions
+, .sidecontentbox .title h1
+, .sidecontentbox .content
+, .titlebox .bottom
+, .md blockquote
+, .md del {
+  color: #ffffff;
+}
+
+/* line 310, ../sass/techwork.scss */
+.sidecontentbox .content {
+  border: 1px solid #ffffff;
+}
+
+/* line 327, ../sass/techwork.scss */
+.flair {
+  min-width: 14px;
+  max-width: 14px;
+  height: 14px;
+  line-height: 14px;
+  border: none;
+  border-radius: 7px;
+  overflow: hidden;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 11px !important;
+  font-weight: 700;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  text-indent: 14px;
+  margin-left: 4px;
+}
+
+/* line 346, ../sass/techwork.scss */
+.flair:hover {
+  max-width: 500px;
+  padding: 0 5px;
+}
+
+/* line 351, ../sass/techwork.scss */
+.flair-business {
+  color: blue;
+  background-color: yellow;
+  border-color: purple;
+}
+
+/* line 357, ../sass/techwork.scss */
+.flair-admin {
+  color: white;
+  background-color: purple;
+  border-color: purple;
+}
+
+/* line 363, ../sass/techwork.scss */
+.flair-accounts {
+  color: #FFF05D;
+  background-color: #B25E7F;
+}
+
+/* line 368, ../sass/techwork.scss */
+.flair-manager {
+  color: #FF465B;
+  background-color: #FDFEFF;
+}
+
+/* line 373, ../sass/techwork.scss */
+.flair-designer {
+  color: #FFED00;
+  background-color: #000000;
+}
+
+/* line 378, ../sass/techwork.scss */
+.flair-front-end {
+  color: #FDFDFF;
+  background-color: #1EAFFF;
+}
+
+/* line 383, ../sass/techwork.scss */
+.flair-back-end {
+  color: #FF7846;
+  background-color: #FDFDFF;
+}
+
+/* line 388, ../sass/techwork.scss */
+.flair-sysadmin {
+  color: #00ff00;
+  background-color: black;
+}
+
+/* line 393, ../sass/techwork.scss */
+.flair-fullstack {
+  color: white;
+  background-color: #E609DB;
+}
+
+/* line 407, ../sass/techwork.scss */
+.RESshortcut, .REStoggle, .RESDashboardToggle {
+  text-align: center;
+  background: gold;
+  border-radius: 0 !important;
+  height: 26px;
+  line-height: 26px;
+  width: 50% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: left;
+  border: none !important;
+}
+
+/* line 420, ../sass/techwork.scss */
+.leavemoderator, .flairtoggle, .icon-menu a {
+  background: transparent;
+}

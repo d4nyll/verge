@@ -1,0 +1,422 @@
+$purple: #b8416b;
+$red: #bd4148;
+$blood-orange: #c06243;
+$orange: #c28a46;
+$yellow: #c5b249;
+
+$white: #ffffff;
+$off-white: #f5f5f5;
+$dark-blue: #0A1E29;
+$light-blue: #2C404A;
+$dark-purple: #3E313C;
+$light-pruple: #4D394B;
+$green: #34B18C;
+$gold: #CFD2AD;
+$dark-grey: #333333;
+
+$top-bar-height: 26px;
+
+$sidebar-width: 330px;
+$page-padding: 32px;
+$menu-padding: 6px;
+$block-spacing: 10px;
+
+$sidebar-button-height: 30px;
+
+$header-bottom-right-padding: 8px;
+
+%sidebar-button {
+    display: block;
+    background: $gold;
+    border: none;
+    border-radius: 0;
+    font-weight: 400;
+    height: $sidebar-button-height;
+    line-height: $sidebar-button-height;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    a {
+        color: $light-pruple;
+    }
+}
+
+body {
+    background-image: url(http://i.imgur.com/07t2mb2.gif);
+}
+
+.pagename a {
+    color: $white;
+}
+
+body, #header, .side {
+    background-color: transparent;
+    color: $white;
+}
+
+#header {
+    border-bottom: none;
+}
+
+#header-bottom-right {
+    border-radius: 0;
+    background: transparent;
+    top: 0!important;
+    right: 0;
+    padding: 0!important;
+    height: $top-bar-height !important;
+    line-height: $top-bar-height;
+    padding-left: $header-bottom-right-padding !important;
+    padding-right: $header-bottom-right-padding !important;
+    color: #fff;
+}
+
+#header-bottom-left {
+    height: 200px;
+    .redditname {
+        margin-top: 40px;
+        font-size: 60px;
+    }
+    #header-img {
+        display: none;
+    }
+    .tabmenu {
+        li {
+            margin-left: 0;
+            margin-right: 0;
+            font-size: 14px;
+            font-weight: 400;
+            padding: $menu-padding;
+            cursor: pointer;
+            .choice, #viewImagesButton {
+                background-color: transparent;
+                color: $white;
+                border: none !important;
+            }
+            &.selected, &:hover {
+                background-color: $white;
+                .choice, #viewImagesButton {
+                    color: $dark-purple;
+                }
+            }
+        }
+    }
+}
+
+.pagename {
+    display: block;
+    text-align: center;
+}
+
+.tabmenu {
+    position: absolute;
+    bottom: 0;
+    padding: $menu-padding;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: $page-padding;
+    background: $dark-purple;    
+}
+
+.side {
+    width: $sidebar-width - $page-padding - $block-spacing;
+    margin-right: $page-padding;
+}
+
+.titlebox {
+    .redditname {
+        display: none;
+    }
+    .toggle {
+        width: 100%;
+    }
+    .option.active {
+        @extend %sidebar-button;
+    }
+    .option {
+        color: $light-pruple;
+    }
+}
+
+form#search input[type=text] {
+    width: 100% !important;
+}
+
+.md {
+    color: inherit;
+}
+
+.content {
+    margin-left: $page-padding;
+    margin-right: $sidebar-width;
+}
+
+.thing {
+    background-color: $white;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 2px $dark-grey;
+    min-height: 70px;
+}
+.thing:hover {
+    background-color: $off-white;
+    box-shadow: 0px 3px 0px #888;
+}
+
+.thing .arrow {
+    background-size: 32px;
+    width: 22px;
+    height: 22px;
+    background-position: center!important;
+}
+
+.thing .arrow.up {
+    background-image: url("//b.thumbs.redditmedia.com/U2f3GM6Z5z7UWhYOjlcm8OOTIy_IUO8ty2uxnq1CinQ.png")
+}
+
+.thing .arrow.upmod {
+    background-image: url("//b.thumbs.redditmedia.com/PHU9t5grK84zhXgjCIQSgLQfq_y1X1km93igtQgucdE.png")
+}
+
+.thing .arrow.down {
+    background-image: url("//b.thumbs.redditmedia.com/akq_xxbyrqLoIMB18dl7cME1Elr_kKlKBWj_9fwTvnk.png")
+}
+
+.thing .arrow.downmod {
+    background-image: url("//b.thumbs.redditmedia.com/Io1Y5neDgYnFdyS2yI1sBcRQ5W6Oe6YgYsKVif4fd5E.png")
+}
+
+.RES-keyNav-activeElement {
+    background-color: transparent !important;
+}
+
+
+.rank {
+    display: none
+}
+
+.expando-button.collapsed.selftext {
+    width: 20px;
+    height: 20px;
+    margin: 4px 8px 0 0;
+    background: wheat;
+}
+
+.expando {
+    .md {
+        color: $dark-grey;
+    }
+}
+
+.nub {
+    display: none;
+}
+
+.morelink {
+    @extend %sidebar-button;
+}
+
+#sr-header-area {
+    height: $top-bar-height;
+    line-height: $top-bar-height;
+    .width-clip, #RESShortcutsViewport {
+        margin-right: 400px;
+    }
+}
+
+
+
+.users-online:before {
+    content: "";
+}
+
+.users-online .number:after {
+    content: " here";
+}
+
+.users-online .word {
+    display: none;
+}
+
+
+
+
+
+
+
+.entry .tagline {
+  margin-top: 4px;
+  color: $dark-purple;
+  font-size: 12px;
+  font-family: arial,sans-serif;
+  transition: all 0.15s ease;
+}
+
+.entry .buttons li {
+  display: inline-block;
+  border: none;
+  padding-right: 4px;
+  line-height: 1.6em;
+}
+
+
+.entry .buttons li a {
+  padding: 0 1px;
+  color: $dark-purple;
+  font-weight: 400;
+  font-size: 13px;
+  transition: all 0.15s ease;
+}
+
+a {
+    color: #FFE2AC;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nextprev a, .next-suggestions a {
+    border-radius: none;
+    border: 1px solid $white;
+    background-color: transparent;
+    font-weight: 400;
+}
+
+.entry a:hover {
+    color: $dark-blue !important;
+
+}
+
+
+.approval-checkmark {
+    display: none;
+}
+
+.nextprev
+, .next-suggestions
+, .sidecontentbox .title h1
+, .sidecontentbox .content
+,.titlebox .bottom
+,.md blockquote
+, .md del {
+    color: $white;
+}
+
+
+.sidecontentbox .content {
+    border: 1px solid $white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flair {
+    min-width: 14px;
+    max-width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border: none;
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 11px!important;
+    font-weight: 700;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+    text-indent: 14px;
+    margin-left: 4px;
+}
+
+.flair:hover {
+    max-width: 500px;
+    padding: 0 5px;
+}
+
+.flair-business {
+    color: blue;
+    background-color: yellow;
+    border-color: purple
+}
+
+.flair-admin {
+    color: white;
+    background-color: purple;
+    border-color: purple
+}
+
+.flair-accounts {
+    color: #FFF05D;
+    background-color: #B25E7F;
+}
+
+.flair-manager {
+    color: #FF465B;
+    background-color: #FDFEFF;
+}
+
+.flair-designer {
+    color: #FFED00;
+    background-color: #000000;
+}
+
+.flair-front-end {
+    color: #FDFDFF;
+    background-color: #1EAFFF;
+}
+
+.flair-back-end {
+    color: #FF7846;
+    background-color: #FDFDFF;
+}
+
+.flair-sysadmin {
+    color: #00ff00;
+    background-color: black;
+}
+
+.flair-fullstack {
+    color: white;
+    background-color: #E609DB;
+}
+
+
+
+
+
+
+
+
+
+
+.RESshortcut, .REStoggle, .RESDashboardToggle {
+    text-align: center;
+    background: gold;
+    border-radius: 0 !important;
+    height: 26px;
+    line-height: 26px;
+    width: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: left;
+    border: none !important;
+}
+
+.leavemoderator, .flairtoggle, .icon-menu a {
+    background: transparent;
+}
